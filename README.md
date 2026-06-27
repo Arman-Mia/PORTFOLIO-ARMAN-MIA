@@ -2,7 +2,7 @@
 
 A sleek, responsive, and performance-driven developer portfolio showcasing frontend web applications, technical expertise, and personal projects. Designed with a dark futuristic theme, fluid grid patterns, and dynamic UI elements.
 
-🔗 **Live Demo:** [https://arman-mia.github.io/portfolio](https://arman-mia.github.io/PORTFOLIO-ARMAN-MIA/) *(Update this link after deploying)*
+🔗 **Live Demo:** [https://arman-mia.github.io/portfolio](https://arman-mia.github.io/PORTFOLIO-ARMAN-MIA/)
 
 ## 🚀 Features
 
