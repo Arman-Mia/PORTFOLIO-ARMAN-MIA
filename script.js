@@ -50,7 +50,7 @@ const projects = [
     desc: 'A modern, highly animated creative agency website showcasing services and portfolio projects.',
     meta: 'Agency Template', year: '2025',
     icon: 'sparkles', gradient: 'from-rose-700 to-pink-900',
-    link: 'https://arman-mia.github.io/Make-Dream-Agency/'
+    link: 'https://makedream.in'
   },
   {
     title: 'World Food Encyclopedia',
@@ -159,8 +159,8 @@ function showToast(title, desc) {
 function downloadCV() {
   // Create an invisible link element to trigger the file download
   const link = document.createElement('a');
-  link.href = 'ARMAN_MIA_NEW_RESUME (1).pdf'; // This path expects the PDF to be in the same folder
-  link.download = 'ARMAN_MIA_NEW_RESUME (1).pdf';
+  link.href = 'My_CV1.pdf'; 
+  link.download = 'My_CV1.pdf';
   
   // Append to body, click, and remove
   document.body.appendChild(link);
@@ -196,7 +196,7 @@ async function submitForm(e) {
         "Accept": "application/json"
       },
       body: JSON.stringify({
-        access_key: "d192a6a1-b69e-43bf-9de2-e6073e1e504d", // Your exact key from the screenshot
+        access_key: "d192a6a1-b69e-43bf-9de2-e6073e1e504d", 
         name: name,
         email: email,
         message: msg
